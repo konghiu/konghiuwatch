@@ -1,0 +1,53 @@
+.admin-add-product, .admin-add-product .banner {
+     width: 100%;
+     height: 100vh;
+     top: 0;
+     left: 0;
+     z-index: 90;
+}
+.admin-add-product {
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.admin-add-product .banner {
+     position: absolute;
+     background-color: black;
+     opacity: 50%;
+}
+
+.admin-add-product .content {
+     z-index: 91;
+     width: 80%;
+     /* height: 80%; */
+     padding: 2rem 0;
+     background-color: white;
+}
+.admin-add-product .content input {
+     outline: none;
+}
+.admin-add-product .content th {
+     padding: 2.5px 1rem !important;
+}
+.admin-add-product .content .container-button-add {
+     margin-top: 2rem;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+}
+
+.admin-add-product .content .container-button-add button {
+     padding: .5rem 2rem;
+     background-color: #000;
+     color: #fff;
+}
+
+input[type=file] {
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0;
+}

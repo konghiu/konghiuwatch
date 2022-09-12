@@ -1,0 +1,44 @@
+.footer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     color: white;
+     padding: 5rem 0;
+}
+
+/* button-back-to-top */
+.button-back-to-top {
+     position: fixed;
+     bottom: 50px;
+     right: 50px;
+     /* display: flex; */
+     display: none;
+     align-items: center;
+     justify-content: center;
+     width: 50px;
+     height: 50px;
+     font-size: 26px;
+     border-radius: 25%;
+     color: white;
+     background-color: #f97e6c;
+     cursor: pointer;
+}
+
+/* icons */
+.icon-search {
+     position: relative;
+}
+.icon-search input {
+     display: none;
+     color: black;
+     position: absolute;
+     bottom: -2rem;
+     font-size: 18px;
+     right: 0;
+     width: 20rem;
+     padding: 5px 1rem;
+     border: 1px solid #ccc;
+     outline: none;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

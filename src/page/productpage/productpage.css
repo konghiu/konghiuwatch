@@ -1,0 +1,95 @@
+.product-page {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+/* option  */
+.option-all-product {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(240, 240, 240);
+     position: relative;
+}
+.option-all-product .option {
+     display: flex;
+     align-items: center;
+}
+.bosuutap, .mausac, .kichco, .sapxep {
+     padding: 0.75rem 2rem;
+}
+.option-all-product .option .bosuutap-option, 
+.option-all-product .option .kichco-option, 
+.option-all-product .option .mausac-option {
+     position: absolute;
+     background-color: #fff;
+     width: 100%;
+     height: fit-content;
+     padding: 1rem 0;
+     top: 100%;
+     left: 0;
+     display: none;
+     z-index: 20;
+     border: 1px solid #ccc;
+}
+.option-all-product .option .bosuutap:hover .bosuutap-option,
+.option-all-product .option .mausac:hover .mausac-option,
+.option-all-product .option .kichco:hover .kichco-option  {
+     display: flex;
+}
+.option-all-product .sapxep .option-sapxep {
+     font-size: 15px;
+     position: relative;
+}
+.option-all-product .sapxep .option-sapxep:hover ul {
+     display: block;
+}
+.option-all-product .sapxep .option-sapxep ul {
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     width: 100%;
+     background-color: #fff;
+     z-index: 20;
+     border: 1px solid #ccc;
+     border-top-width: 0;
+     padding: .5rem;
+}
+/* collection customer slider */
+.collection-customer {
+     width: 100%;
+     padding: 3rem 1rem;
+     background-color: #FCF8F4;
+}
+
+.collection-customer .slider .slick-track {
+     display: flex !important;
+     gap: 1rem;
+}
+
+.collection-customer .slick-dots {
+     display: flex !important;
+     align-items: center;
+     justify-content: center;
+     margin-top: 1.5rem;
+}
+
+.collection-customer .slick-dots li {
+     background-color: #000;
+     opacity: 20%;
+     width: 2rem;
+     height: .75rem;
+     border-radius: 2.5rem;
+     margin: 0 .25rem;
+}
+.collection-customer .slick-dots .slick-active {
+     background-color: #f97e6c !important;
+     width: 3rem;
+     opacity: 100%;
+}
+.collection-customer .slick-dots button {
+     color: transparent;
+     width: 100%;
+     height: 100%;
+}

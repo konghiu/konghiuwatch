@@ -1,0 +1,148 @@
+.product-item-block .product-container {
+     display: flex;
+     flex-direction: column;
+}
+.product-item-block .product-container .block-sale {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: fit-content;
+     height: fit-content;
+     background-color: red;
+     color: #fff;
+     padding: 5px 10px;
+     border-bottom-right-radius: 25px;
+     z-index: 10;
+}
+/* làm nổi các ngôi sao và nút chức năng */
+.product-container i {
+     z-index: 10;
+}
+/* banner mờ  */
+.product-container span {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: none;
+}
+/* css cho nút chức năng */
+.product-item-block .fa-eye, .product-item-block .fa-cart-arrow-down {
+     position: absolute;
+     right: 15px;
+     top: 15px;
+     padding: 0.5rem;
+     color: orange;
+     border: 1px solid orange;
+     border-radius: 50%;
+     cursor: pointer;
+     transition: all .25s ease;
+     transform: scale(0);
+}
+.product-item-block .fa-eye:hover, .product-item-block .fa-cart-arrow-down:hover {
+     background-color: orange;
+     color: white;
+}
+.product-item-block .fa-cart-arrow-down {
+     top: 55px;
+}
+/* css cho các ngôi sao */
+.product-item-block .container-star {
+     position: absolute;
+     bottom: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+     color: orange;
+     opacity: 0;
+     transition: all .25s ease;
+}
+/* hover làm mờ hình ảnh */
+.product-item-block img {
+     transition: all 0.5s ease;
+}
+.product-item-block:hover img {
+     opacity: 35%;
+}
+/* hover làm hiển thị ngôi sao và nút chức năng bị ẩn */
+.product-item-block:hover span {
+     display: flex;
+}
+
+.product-item-block:hover .fa-eye, .product-item-block:hover .fa-cart-arrow-down {
+     transform: scale(1);
+     display: block;
+}
+
+.product-item-block:hover .container-star {
+     opacity: 100%;
+}
+
+/* loading */
+/* quick view product and its banner */
+.loading, .loading .banner, .quick-view-product, .quick-view-product .banner  {
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+}
+.loading, .quick-view-product {
+     z-index: 100;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.loading .banner, .quick-view-product .banner {
+     background-color: #000;
+     opacity: 50%;
+     position: absolute;
+}
+
+.loading .content {
+     display: flex;
+     z-index: 101;
+     background-color: transparent !important;
+}
+.loading .content span {
+     width: 1rem;
+     height: 1rem;
+     margin: 0 5px;
+     background-color: #f97e6c;
+     border-radius: 50%;
+}
+
+.loading .content span:nth-child(1) {
+     animation: loading 0.5s linear 0s infinite;
+}
+.loading .content span:nth-child(2) {
+     animation: loading 0.5s linear 0.125s infinite;
+}
+.loading .content span:nth-child(3) {
+     animation: loading 0.5s linear 0.25s infinite;
+}
+
+@keyframes loading {
+     0% {
+          transform: translateY(0);
+     }
+     50% {
+          transform: translateY(1.5rem);
+     }
+     100% {
+          transform: translateY(0);
+     }
+}
+
+/* quick view product */
+.quick-view-product {
+     display: flex;
+     z-index: 50;
+}
+
+.quick-view-product .content {
+     z-index: 51;
+     background: #fff;
+     padding: 2rem;
+}
+

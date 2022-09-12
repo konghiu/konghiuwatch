@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+     font-weight: 350;
+     font-size: 18px;
+     overflow-x: hidden;
+}
+
+tbody {
+     display: table-row-group;
+     vertical-align: middle;
+}
+tr {
+     display: table-row;
+     vertical-align: inherit;
+}
+th {
+     border: 1px solid #ccc;
+     opacity: 85%;
+     font-weight: 350;
+     padding: 1rem;
+     text-align: start;
+     font-size: 19px;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+     width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: #f97e6c;
+}
+
+
+.global-width {
+     width: 1200px;
+}
+
+.h-banner {
+     height: 540px;
+}
+
+.color-main {
+     color: #f97e6c;
+}
+
+.bg-main {
+     background-color: #f97e6c;
+}
+

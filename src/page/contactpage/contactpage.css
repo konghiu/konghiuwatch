@@ -1,0 +1,13 @@
+.form-send-message {
+     display: grid;
+     width: 100%;
+     gap: 30px;
+}
+.input-name {
+     grid-column: 1 / span 2;
+     grid-row: 1;
+}
+.input-content {
+     grid-column: 1 / span 2;
+     grid-row: 3;
+}
