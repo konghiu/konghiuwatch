@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/konghiuwatch/static/css/main.c381df8a.css",
+    "main.js": "/konghiuwatch/static/js/main.f10e43b4.js",
+    "static/js/787.2a4b6e12.chunk.js": "/konghiuwatch/static/js/787.2a4b6e12.chunk.js",
+    "static/media/fa-solid-900.ttf": "/konghiuwatch/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/news_banner.webp": "/konghiuwatch/static/media/news_banner.b4f464cf32888db7c0eb.webp",
+    "static/media/fa-brands-400.ttf": "/konghiuwatch/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/fa-solid-900.woff2": "/konghiuwatch/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/konghiuwatch/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/cate_1.webp": "/konghiuwatch/static/media/cate_1.607927237a7ae7adfae8.webp",
+    "static/media/img_news.webp": "/konghiuwatch/static/media/img_news.5c1dff3aee81bb0fbaeb.webp",
+    "static/media/fa-regular-400.ttf": "/konghiuwatch/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/cate_2.webp": "/konghiuwatch/static/media/cate_2.e56744227a038d9e5ab8.webp",
+    "static/media/cate_4.webp": "/konghiuwatch/static/media/cate_4.2df5c2dfcf5fb9aedf29.webp",
+    "static/media/cate_3.webp": "/konghiuwatch/static/media/cate_3.3166fc6b2c126cce47b2.webp",
+    "static/media/img_sale.webp": "/konghiuwatch/static/media/img_sale.c109cf2d82c5e7417284.webp",
+    "static/media/banner-desktop.webp": "/konghiuwatch/static/media/banner-desktop.1974363788115d8379bc.webp",
+    "static/media/banner_awe_seaction_4.webp": "/konghiuwatch/static/media/banner_awe_seaction_4.cdbc4eabdb4fdb5a712f.webp",
+    "static/media/collection_customer_1.webp": "/konghiuwatch/static/media/collection_customer_1.33200351ca7ca5ea4c3b.webp",
+    "static/media/fa-regular-400.woff2": "/konghiuwatch/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/fa-v4compatibility.ttf": "/konghiuwatch/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/konghiuwatch/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
+    "static/media/gp-btn.svg": "/konghiuwatch/static/media/gp-btn.a36ff3d90dbd10c6ac2e75e6de7c7b59.svg",
+    "static/media/fb-btn.svg": "/konghiuwatch/static/media/fb-btn.73c1e242dbb5c56e72c145a4b4fa35c0.svg",
+    "static/media/icon-phone.svg": "/konghiuwatch/static/media/icon-phone.582a7c736d50841ed056011fac06fef8.svg",
+    "static/media/icon-gift.svg": "/konghiuwatch/static/media/icon-gift.91a40d33ef0fdebabde4b189aa5a888c.svg",
+    "static/media/icon-transfer.svg": "/konghiuwatch/static/media/icon-transfer.2da032cc704e7dc2704f2c7c6674a46f.svg",
+    "static/media/dong-ho-mau.webp": "/konghiuwatch/static/media/dong-ho-mau.5c319d0d06aad2ecba85.webp",
+    "static/media/icon-change.svg": "/konghiuwatch/static/media/icon-change.a0e35b11e8884688dbe93e16ae123f72.svg",
+    "static/media/logo.webp": "/konghiuwatch/static/media/logo.bd93de91d3088f6e0e66.webp",
+    "index.html": "/konghiuwatch/index.html",
+    "main.c381df8a.css.map": "/konghiuwatch/static/css/main.c381df8a.css.map",
+    "main.f10e43b4.js.map": "/konghiuwatch/static/js/main.f10e43b4.js.map",
+    "787.2a4b6e12.chunk.js.map": "/konghiuwatch/static/js/787.2a4b6e12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c381df8a.css",
+    "static/js/main.f10e43b4.js"
+  ]
+}
